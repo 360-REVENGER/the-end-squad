@@ -1,0 +1,119 @@
+* {
+    text-decoration: none;
+
+}
+.main1{
+    transition: all linear .3s;
+}
+.main1:hover {
+    color: #941143;
+
+    transition: all linear .3s;
+
+}
+.main2{
+    transition: all linear .3s;
+}
+.main2:hover{
+    color: red;
+    transition: all linear .3s;
+}
+.main4{
+    transition: all linear .3s;
+}
+.main4:hover{
+    color: white;
+    transition: all linear .3s;
+}
+.main3{
+    transition: all linear .3s;
+}
+.main3:hover{
+    color: green;
+    transition: all linear .3s;
+}
+
+
+.rainbow {
+    background-color: #343A40;
+    border-radius: 4px;
+    color: #fff;
+    cursor: pointer;
+    padding: 15px 61px;
+    font-size: 40px;
+
+}
+.rainbow-1:hover {
+    background-image: linear-gradient(to right, red, orange, yellow, green, blue, indigo, red);
+    animation: slidebg 2s linear infinite;
+}
+.rainbow-2{
+    padding-left: 102px;
+}
+.rainbow-2:hover {
+    background-image: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet, red);
+    animation: slidebg 2s linear infinite;
+    
+}
+.rainbow-3{
+    padding-left: 124px;
+}
+.rainbow-3:hover {
+    background-image: linear-gradient(to right, red, orange, yellow, green, blue, indigo, red);
+    animation: slidebg 2s linear infinite;
+}
+.rainbow-4{
+    padding-left: 90px;
+}
+.rainbow-4:hover {
+    background-image: linear-gradient(to right,
+            #E7484F,
+            #F68B1D,
+            #FCED00,
+            #009E4F,
+            #00AAC3,
+            #732982);
+    animation: slidebg 2s linear infinite;
+}
+
+
+
+
+@keyframes slidebg {
+    to {
+        background-position: 20vw;
+    }
+}
+
+
+
+.color img {
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+    -webkit-transition: all 1s ease;
+}
+
+.color img:hover {
+    filter: grayscale(0%);
+    filter: gray;
+    -webkit-filter: grayscale(0%);
+    filter: none;
+    transition: 1s ease;
+}
+.example_b {
+    color: #fff !important;
+    text-transform: uppercase;
+    text-decoration: none;
+    background: #60a3bc;
+    padding: 20px;
+    border-radius: 6px;
+    display: inline-block;
+    border: none;
+    transition: all 0.4s ease 0.3s;
+    }
+    .example_b:hover {
+    text-shadow: 0px 0px 6px rgba(255, 255, 255, 1);
+    -webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+    -moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+    transition: all 0.4s ease 0s;
+    }
